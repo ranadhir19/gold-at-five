@@ -112,6 +112,12 @@ the arm joins the table with its lift, harm, and token cost measured
 the same way. The verdict above is computed from the four arms that
 did run.
 
+*Re-attempted 2026-11-11:* the Gemini route (`gemini-3.5-flash`)
+returned HTTP 503 ("high demand") on the first call, twice; the
+Groq route (`--model openai/gpt-oss-20b`) returned HTTP 429 on its
+first call and was stopped under the hard-stop rule. The arm
+remains unrun and the limitation above stands unchanged.
+
 ## The taxonomy
 
 Every miss is assigned the first matching cause, in a fixed
