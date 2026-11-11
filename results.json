@@ -1,0 +1,1835 @@
+{
+  "corpus": {
+    "chunks": 52,
+    "documents": 16
+  },
+  "llm_model": null,
+  "questions": 44,
+  "strategies": {
+    "bm25": {
+      "attribution": {
+        "harm": 0,
+        "held": 35,
+        "lift": 0,
+        "still_out": 9
+      },
+      "context_tokens_per_correct": 195.2,
+      "context_tokens_total": 6833,
+      "cost_tokens_per_correct": 195.2,
+      "mean_gold_rank_final": 4.8864,
+      "mean_gold_rank_stage1": 4.8864,
+      "per_question": [
+        {
+          "attribution": "still_out",
+          "final_rank": 7,
+          "gold": "group-checkin#1",
+          "id": "Q01",
+          "kind": "direct",
+          "stage1_rank": 7,
+          "taxonomy": "below_cutoff"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-checkin#2",
+          "id": "Q02",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-checkin#3",
+          "id": "Q03",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#1",
+          "id": "Q04",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#3",
+          "id": "Q05",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-parking#2",
+          "id": "Q06",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#1",
+          "id": "Q07",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q08",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#1",
+          "id": "Q09",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-breakfast#2",
+          "id": "Q10",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#1",
+          "id": "Q11",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#2",
+          "id": "Q12",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-pool-spa#1",
+          "id": "Q13",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 9,
+          "gold": "hilltop-activities#2",
+          "id": "Q14",
+          "kind": "direct",
+          "stage1_rank": 9,
+          "taxonomy": "chunk_boundary_straddle"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-shuttle#1",
+          "id": "Q15",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#1",
+          "id": "Q16",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#2",
+          "id": "Q17",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-accessibility#1",
+          "id": "Q18",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 30,
+          "gold": "group-checkin#2",
+          "id": "Q19",
+          "kind": "paraphrase",
+          "stage1_rank": 30,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 37,
+          "gold": "hilltop-pets#2",
+          "id": "Q20",
+          "kind": "paraphrase",
+          "stage1_rank": 37,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-wifi#2",
+          "id": "Q21",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 25,
+          "gold": "harbor-pool-spa#1",
+          "id": "Q22",
+          "kind": "paraphrase",
+          "stage1_rank": 25,
+          "taxonomy": "paraphrase_gap"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#4",
+          "id": "Q23",
+          "kind": "paraphrase",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "harbor-breakfast#2",
+          "id": "Q24",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-shuttle#2",
+          "id": "Q25",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 11,
+          "gold": "group-accessibility#2",
+          "id": "Q26",
+          "kind": "paraphrase",
+          "stage1_rank": 11,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 10,
+          "gold": "hilltop-activities#2",
+          "id": "Q27",
+          "kind": "paraphrase",
+          "stage1_rank": 10,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q28",
+          "kind": "paraphrase",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-checkin#4",
+          "id": "Q29",
+          "kind": "straddle",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-cancellation#2",
+          "id": "Q30",
+          "kind": "straddle",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#2",
+          "id": "Q31",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-events#3",
+          "id": "Q32",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#2",
+          "id": "Q33",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#2",
+          "id": "Q34",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-pets#2",
+          "id": "Q35",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "harbor-breakfast#2",
+          "id": "Q36",
+          "kind": "duplicate",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 5,
+          "gold": "harbor-parking#3",
+          "id": "Q37",
+          "kind": "duplicate",
+          "stage1_rank": 5,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "hilltop-breakfast#1",
+          "id": "Q38",
+          "kind": "duplicate",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-pets#2",
+          "id": "Q39",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "hilltop-parking#1",
+          "id": "Q40",
+          "kind": "duplicate",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#2",
+          "id": "Q41",
+          "kind": "vocab",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 9,
+          "gold": "harbor-pool-spa#2",
+          "id": "Q42",
+          "kind": "vocab",
+          "stage1_rank": 9,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 5,
+          "gold": "hilltop-parking#1",
+          "id": "Q43",
+          "kind": "vocab",
+          "stage1_rank": 5,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 26,
+          "gold": "harbor-pool-spa#2",
+          "id": "Q44",
+          "kind": "vocab",
+          "stage1_rank": 26,
+          "taxonomy": "vocabulary_mismatch"
+        }
+      ],
+      "precision_at_5": 0.172727,
+      "recall_at_5": 0.795455,
+      "recall_curve_stage1": {
+        "1": 0.568182,
+        "10": 0.886364,
+        "20": 0.909091,
+        "3": 0.75,
+        "5": 0.795455,
+        "50": 1.0
+      },
+      "rerank_tokens_total": 0,
+      "taxonomy": {
+        "below_cutoff": 1,
+        "chunk_boundary_straddle": 1,
+        "paraphrase_gap": 1,
+        "vocabulary_mismatch": 6
+      }
+    },
+    "hybrid": {
+      "attribution": {
+        "harm": 0,
+        "held": 36,
+        "lift": 0,
+        "still_out": 8
+      },
+      "context_tokens_per_correct": 189.5,
+      "context_tokens_total": 6822,
+      "cost_tokens_per_correct": 189.5,
+      "mean_gold_rank_final": 4.7273,
+      "mean_gold_rank_stage1": 4.7273,
+      "per_question": [
+        {
+          "attribution": "still_out",
+          "final_rank": 7,
+          "gold": "group-checkin#1",
+          "id": "Q01",
+          "kind": "direct",
+          "stage1_rank": 7,
+          "taxonomy": "below_cutoff"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-checkin#2",
+          "id": "Q02",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-checkin#3",
+          "id": "Q03",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#1",
+          "id": "Q04",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#3",
+          "id": "Q05",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-parking#2",
+          "id": "Q06",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#1",
+          "id": "Q07",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q08",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#1",
+          "id": "Q09",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-breakfast#2",
+          "id": "Q10",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#1",
+          "id": "Q11",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#2",
+          "id": "Q12",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-pool-spa#1",
+          "id": "Q13",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 5,
+          "gold": "hilltop-activities#2",
+          "id": "Q14",
+          "kind": "direct",
+          "stage1_rank": 5,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-shuttle#1",
+          "id": "Q15",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#1",
+          "id": "Q16",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#2",
+          "id": "Q17",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-accessibility#1",
+          "id": "Q18",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 26,
+          "gold": "group-checkin#2",
+          "id": "Q19",
+          "kind": "paraphrase",
+          "stage1_rank": 26,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 36,
+          "gold": "hilltop-pets#2",
+          "id": "Q20",
+          "kind": "paraphrase",
+          "stage1_rank": 36,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-wifi#2",
+          "id": "Q21",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 23,
+          "gold": "harbor-pool-spa#1",
+          "id": "Q22",
+          "kind": "paraphrase",
+          "stage1_rank": 23,
+          "taxonomy": "paraphrase_gap"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#4",
+          "id": "Q23",
+          "kind": "paraphrase",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "harbor-breakfast#2",
+          "id": "Q24",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-shuttle#2",
+          "id": "Q25",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 11,
+          "gold": "group-accessibility#2",
+          "id": "Q26",
+          "kind": "paraphrase",
+          "stage1_rank": 11,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 11,
+          "gold": "hilltop-activities#2",
+          "id": "Q27",
+          "kind": "paraphrase",
+          "stage1_rank": 11,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q28",
+          "kind": "paraphrase",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-checkin#4",
+          "id": "Q29",
+          "kind": "straddle",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-cancellation#2",
+          "id": "Q30",
+          "kind": "straddle",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#2",
+          "id": "Q31",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-events#3",
+          "id": "Q32",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#2",
+          "id": "Q33",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#2",
+          "id": "Q34",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-pets#2",
+          "id": "Q35",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "harbor-breakfast#2",
+          "id": "Q36",
+          "kind": "duplicate",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 5,
+          "gold": "harbor-parking#3",
+          "id": "Q37",
+          "kind": "duplicate",
+          "stage1_rank": 5,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-breakfast#1",
+          "id": "Q38",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-pets#2",
+          "id": "Q39",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 3,
+          "gold": "hilltop-parking#1",
+          "id": "Q40",
+          "kind": "duplicate",
+          "stage1_rank": 3,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#2",
+          "id": "Q41",
+          "kind": "vocab",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 12,
+          "gold": "harbor-pool-spa#2",
+          "id": "Q42",
+          "kind": "vocab",
+          "stage1_rank": 12,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 5,
+          "gold": "hilltop-parking#1",
+          "id": "Q43",
+          "kind": "vocab",
+          "stage1_rank": 5,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 26,
+          "gold": "harbor-pool-spa#2",
+          "id": "Q44",
+          "kind": "vocab",
+          "stage1_rank": 26,
+          "taxonomy": "vocabulary_mismatch"
+        }
+      ],
+      "precision_at_5": 0.177273,
+      "recall_at_5": 0.818182,
+      "recall_curve_stage1": {
+        "1": 0.590909,
+        "10": 0.840909,
+        "20": 0.909091,
+        "3": 0.75,
+        "5": 0.818182,
+        "50": 1.0
+      },
+      "rerank_tokens_total": 0,
+      "taxonomy": {
+        "below_cutoff": 1,
+        "paraphrase_gap": 1,
+        "vocabulary_mismatch": 6
+      }
+    },
+    "hybrid+lex": {
+      "attribution": {
+        "harm": 4,
+        "held": 32,
+        "lift": 0,
+        "still_out": 8
+      },
+      "context_tokens_per_correct": 215.1,
+      "context_tokens_total": 6883,
+      "cost_tokens_per_correct": 215.1,
+      "mean_gold_rank_final": 5.8182,
+      "mean_gold_rank_stage1": 4.7273,
+      "per_question": [
+        {
+          "attribution": "still_out",
+          "final_rank": 12,
+          "gold": "group-checkin#1",
+          "id": "Q01",
+          "kind": "direct",
+          "stage1_rank": 7,
+          "taxonomy": "below_cutoff"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-checkin#2",
+          "id": "Q02",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-checkin#3",
+          "id": "Q03",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#1",
+          "id": "Q04",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "harm",
+          "final_rank": 13,
+          "gold": "harbor-parking#3",
+          "id": "Q05",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": "reranker_harm"
+        },
+        {
+          "attribution": "harm",
+          "final_rank": 11,
+          "gold": "hilltop-parking#2",
+          "id": "Q06",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": "reranker_harm"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#1",
+          "id": "Q07",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q08",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#1",
+          "id": "Q09",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-breakfast#2",
+          "id": "Q10",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#1",
+          "id": "Q11",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 4,
+          "gold": "group-wifi#2",
+          "id": "Q12",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-pool-spa#1",
+          "id": "Q13",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "harm",
+          "final_rank": 13,
+          "gold": "hilltop-activities#2",
+          "id": "Q14",
+          "kind": "direct",
+          "stage1_rank": 5,
+          "taxonomy": "reranker_harm"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-shuttle#1",
+          "id": "Q15",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#1",
+          "id": "Q16",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#2",
+          "id": "Q17",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-accessibility#1",
+          "id": "Q18",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 26,
+          "gold": "group-checkin#2",
+          "id": "Q19",
+          "kind": "paraphrase",
+          "stage1_rank": 26,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 36,
+          "gold": "hilltop-pets#2",
+          "id": "Q20",
+          "kind": "paraphrase",
+          "stage1_rank": 36,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 4,
+          "gold": "group-wifi#2",
+          "id": "Q21",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 23,
+          "gold": "harbor-pool-spa#1",
+          "id": "Q22",
+          "kind": "paraphrase",
+          "stage1_rank": 23,
+          "taxonomy": "paraphrase_gap"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#4",
+          "id": "Q23",
+          "kind": "paraphrase",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 3,
+          "gold": "harbor-breakfast#2",
+          "id": "Q24",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 3,
+          "gold": "group-shuttle#2",
+          "id": "Q25",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 11,
+          "gold": "group-accessibility#2",
+          "id": "Q26",
+          "kind": "paraphrase",
+          "stage1_rank": 11,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 14,
+          "gold": "hilltop-activities#2",
+          "id": "Q27",
+          "kind": "paraphrase",
+          "stage1_rank": 11,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q28",
+          "kind": "paraphrase",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-checkin#4",
+          "id": "Q29",
+          "kind": "straddle",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "harm",
+          "final_rank": 6,
+          "gold": "group-cancellation#2",
+          "id": "Q30",
+          "kind": "straddle",
+          "stage1_rank": 2,
+          "taxonomy": "reranker_harm"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#2",
+          "id": "Q31",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-events#3",
+          "id": "Q32",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 4,
+          "gold": "group-loyalty#2",
+          "id": "Q33",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#2",
+          "id": "Q34",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-pets#2",
+          "id": "Q35",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#2",
+          "id": "Q36",
+          "kind": "duplicate",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#3",
+          "id": "Q37",
+          "kind": "duplicate",
+          "stage1_rank": 5,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-breakfast#1",
+          "id": "Q38",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "hilltop-pets#2",
+          "id": "Q39",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "hilltop-parking#1",
+          "id": "Q40",
+          "kind": "duplicate",
+          "stage1_rank": 3,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#2",
+          "id": "Q41",
+          "kind": "vocab",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 12,
+          "gold": "harbor-pool-spa#2",
+          "id": "Q42",
+          "kind": "vocab",
+          "stage1_rank": 12,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 5,
+          "gold": "hilltop-parking#1",
+          "id": "Q43",
+          "kind": "vocab",
+          "stage1_rank": 5,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 26,
+          "gold": "harbor-pool-spa#2",
+          "id": "Q44",
+          "kind": "vocab",
+          "stage1_rank": 26,
+          "taxonomy": "vocabulary_mismatch"
+        }
+      ],
+      "precision_at_5": 0.154545,
+      "recall_at_5": 0.727273,
+      "recall_curve_stage1": {
+        "1": 0.590909,
+        "10": 0.840909,
+        "20": 0.909091,
+        "3": 0.75,
+        "5": 0.818182,
+        "50": 1.0
+      },
+      "rerank_tokens_total": 0,
+      "taxonomy": {
+        "below_cutoff": 1,
+        "paraphrase_gap": 1,
+        "reranker_harm": 4,
+        "vocabulary_mismatch": 6
+      }
+    },
+    "tfidf": {
+      "attribution": {
+        "harm": 0,
+        "held": 36,
+        "lift": 0,
+        "still_out": 8
+      },
+      "context_tokens_per_correct": 188.8,
+      "context_tokens_total": 6796,
+      "cost_tokens_per_correct": 188.8,
+      "mean_gold_rank_final": 4.75,
+      "mean_gold_rank_stage1": 4.75,
+      "per_question": [
+        {
+          "attribution": "still_out",
+          "final_rank": 6,
+          "gold": "group-checkin#1",
+          "id": "Q01",
+          "kind": "direct",
+          "stage1_rank": 6,
+          "taxonomy": "below_cutoff"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-checkin#2",
+          "id": "Q02",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-checkin#3",
+          "id": "Q03",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#1",
+          "id": "Q04",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#3",
+          "id": "Q05",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 3,
+          "gold": "hilltop-parking#2",
+          "id": "Q06",
+          "kind": "direct",
+          "stage1_rank": 3,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#1",
+          "id": "Q07",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q08",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#1",
+          "id": "Q09",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-breakfast#2",
+          "id": "Q10",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#1",
+          "id": "Q11",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#2",
+          "id": "Q12",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-pool-spa#1",
+          "id": "Q13",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 3,
+          "gold": "hilltop-activities#2",
+          "id": "Q14",
+          "kind": "direct",
+          "stage1_rank": 3,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-shuttle#1",
+          "id": "Q15",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#1",
+          "id": "Q16",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#2",
+          "id": "Q17",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-accessibility#1",
+          "id": "Q18",
+          "kind": "direct",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 23,
+          "gold": "group-checkin#2",
+          "id": "Q19",
+          "kind": "paraphrase",
+          "stage1_rank": 23,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 34,
+          "gold": "hilltop-pets#2",
+          "id": "Q20",
+          "kind": "paraphrase",
+          "stage1_rank": 34,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "group-wifi#2",
+          "id": "Q21",
+          "kind": "paraphrase",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 22,
+          "gold": "harbor-pool-spa#1",
+          "id": "Q22",
+          "kind": "paraphrase",
+          "stage1_rank": 22,
+          "taxonomy": "paraphrase_gap"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#4",
+          "id": "Q23",
+          "kind": "paraphrase",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 3,
+          "gold": "harbor-breakfast#2",
+          "id": "Q24",
+          "kind": "paraphrase",
+          "stage1_rank": 3,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 3,
+          "gold": "group-shuttle#2",
+          "id": "Q25",
+          "kind": "paraphrase",
+          "stage1_rank": 3,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 11,
+          "gold": "group-accessibility#2",
+          "id": "Q26",
+          "kind": "paraphrase",
+          "stage1_rank": 11,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 12,
+          "gold": "hilltop-activities#2",
+          "id": "Q27",
+          "kind": "paraphrase",
+          "stage1_rank": 12,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q28",
+          "kind": "paraphrase",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 3,
+          "gold": "group-checkin#4",
+          "id": "Q29",
+          "kind": "straddle",
+          "stage1_rank": 3,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-cancellation#2",
+          "id": "Q30",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-wifi#2",
+          "id": "Q31",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-events#3",
+          "id": "Q32",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "group-loyalty#2",
+          "id": "Q33",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-breakfast#2",
+          "id": "Q34",
+          "kind": "straddle",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "harbor-pets#2",
+          "id": "Q35",
+          "kind": "duplicate",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 2,
+          "gold": "harbor-breakfast#2",
+          "id": "Q36",
+          "kind": "duplicate",
+          "stage1_rank": 2,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 4,
+          "gold": "harbor-parking#3",
+          "id": "Q37",
+          "kind": "duplicate",
+          "stage1_rank": 4,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-breakfast#1",
+          "id": "Q38",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "hilltop-pets#2",
+          "id": "Q39",
+          "kind": "duplicate",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 4,
+          "gold": "hilltop-parking#1",
+          "id": "Q40",
+          "kind": "duplicate",
+          "stage1_rank": 4,
+          "taxonomy": null
+        },
+        {
+          "attribution": "held",
+          "final_rank": 1,
+          "gold": "harbor-parking#2",
+          "id": "Q41",
+          "kind": "vocab",
+          "stage1_rank": 1,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 16,
+          "gold": "harbor-pool-spa#2",
+          "id": "Q42",
+          "kind": "vocab",
+          "stage1_rank": 16,
+          "taxonomy": "vocabulary_mismatch"
+        },
+        {
+          "attribution": "held",
+          "final_rank": 5,
+          "gold": "hilltop-parking#1",
+          "id": "Q43",
+          "kind": "vocab",
+          "stage1_rank": 5,
+          "taxonomy": null
+        },
+        {
+          "attribution": "still_out",
+          "final_rank": 26,
+          "gold": "harbor-pool-spa#2",
+          "id": "Q44",
+          "kind": "vocab",
+          "stage1_rank": 26,
+          "taxonomy": "vocabulary_mismatch"
+        }
+      ],
+      "precision_at_5": 0.177273,
+      "recall_at_5": 0.818182,
+      "recall_curve_stage1": {
+        "1": 0.568182,
+        "10": 0.840909,
+        "20": 0.909091,
+        "3": 0.75,
+        "5": 0.818182,
+        "50": 1.0
+      },
+      "rerank_tokens_total": 0,
+      "taxonomy": {
+        "below_cutoff": 1,
+        "paraphrase_gap": 1,
+        "vocabulary_mismatch": 6
+      }
+    }
+  },
+  "taxonomy_audit": {
+    "agreed": 3,
+    "details": {
+      "Q19": {
+        "expected": "paraphrase_gap",
+        "got": "vocabulary_mismatch"
+      },
+      "Q20": {
+        "expected": "paraphrase_gap",
+        "got": "vocabulary_mismatch"
+      },
+      "Q21": {
+        "expected": "paraphrase_gap",
+        "got": "no_miss"
+      },
+      "Q22": {
+        "expected": "paraphrase_gap",
+        "got": "paraphrase_gap"
+      },
+      "Q23": {
+        "expected": "paraphrase_gap",
+        "got": "no_miss"
+      },
+      "Q24": {
+        "expected": "paraphrase_gap",
+        "got": "no_miss"
+      },
+      "Q25": {
+        "expected": "paraphrase_gap",
+        "got": "no_miss"
+      },
+      "Q26": {
+        "expected": "paraphrase_gap",
+        "got": "vocabulary_mismatch"
+      },
+      "Q27": {
+        "expected": "paraphrase_gap",
+        "got": "vocabulary_mismatch"
+      },
+      "Q28": {
+        "expected": "paraphrase_gap",
+        "got": "no_miss"
+      },
+      "Q29": {
+        "expected": "chunk_boundary_straddle",
+        "got": "no_miss"
+      },
+      "Q30": {
+        "expected": "chunk_boundary_straddle",
+        "got": "no_miss"
+      },
+      "Q31": {
+        "expected": "chunk_boundary_straddle",
+        "got": "no_miss"
+      },
+      "Q32": {
+        "expected": "chunk_boundary_straddle",
+        "got": "no_miss"
+      },
+      "Q33": {
+        "expected": "chunk_boundary_straddle",
+        "got": "no_miss"
+      },
+      "Q34": {
+        "expected": "chunk_boundary_straddle",
+        "got": "no_miss"
+      },
+      "Q35": {
+        "expected": "near_duplicate_flooding",
+        "got": "no_miss"
+      },
+      "Q36": {
+        "expected": "near_duplicate_flooding",
+        "got": "no_miss"
+      },
+      "Q37": {
+        "expected": "near_duplicate_flooding",
+        "got": "no_miss"
+      },
+      "Q38": {
+        "expected": "near_duplicate_flooding",
+        "got": "no_miss"
+      },
+      "Q39": {
+        "expected": "near_duplicate_flooding",
+        "got": "no_miss"
+      },
+      "Q40": {
+        "expected": "near_duplicate_flooding",
+        "got": "no_miss"
+      },
+      "Q41": {
+        "expected": "vocabulary_mismatch",
+        "got": "no_miss"
+      },
+      "Q42": {
+        "expected": "vocabulary_mismatch",
+        "got": "vocabulary_mismatch"
+      },
+      "Q43": {
+        "expected": "vocabulary_mismatch",
+        "got": "no_miss"
+      },
+      "Q44": {
+        "expected": "vocabulary_mismatch",
+        "got": "vocabulary_mismatch"
+      }
+    },
+    "labelled": 26,
+    "missed": 7
+  },
+  "verdict": {
+    "strategy": "tfidf",
+    "text": "Run **tfidf**: recall@5 0.818, precision@5 0.177, 188.8 tokens per correct answer (context + rerank cost). That is level with plain hybrid retrieval on recall@5 \u2014 the win is on precision and cost, not coverage. Its commonest remaining failure is vocabulary_mismatch (6 of 44 questions) \u2014 fix that before buying a bigger model."
+  }
+}
